@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@keyframes gradientMove {
+  0% { transform: translate(30%, -20%) scale(1); }
+  50% { transform: translate(20%, -25%) scale(1.05); }
+  100% { transform: translate(30%, -20%) scale(1); }
+}
